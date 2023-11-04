@@ -1,0 +1,9 @@
+name: FAction using github
+on: push
+jobs:
+  TheFirstJob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hi Ahmed :)
+        run: echo "Hi From ${{runner.os}}"
+    
